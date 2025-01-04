@@ -188,9 +188,9 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Acknowledgments
 
-- FastAPI for the web framework.
-- Tesseract OCR for text extraction.
-- Pillow for image processing.
+- [FastAPI](https://fastapi.tiangolo.com/) for the text extraction service.
+- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) for text extraction.
+- [Pillow](https://python-pillow.org/) for image processing.
 
 ---
 
