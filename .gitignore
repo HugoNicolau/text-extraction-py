@@ -1,0 +1,46 @@
+# Virtual environment files
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Log files
+*.log
+
+# Local development files
+*.local
+
+# Environment variables
+.env
+.env.local
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Test artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
