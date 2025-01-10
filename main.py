@@ -5,6 +5,7 @@ import logging
 import os
 import pytesseract
 
+app = FastAPI()
 # Set the Tesseract command path from the environment variable
 pytesseract.pytesseract.tesseract_cmd = os.getenv('TESSERACT_CMD', '/usr/bin/tesseract')
 
