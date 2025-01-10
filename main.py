@@ -1,11 +1,12 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from PIL import Image
-import pytesseract
 import io
 import logging
+import os
+import pytesseract
 
-app = FastAPI()
-# pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
+# Set the Tesseract command path from the environment variable
+pytesseract.pytesseract.tesseract_cmd = os.getenv('TESSERACT_CMD', '/usr/bin/tesseract')
 
 
 logging.basicConfig(level=logging.DEBUG)
