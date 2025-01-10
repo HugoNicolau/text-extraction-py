@@ -5,7 +5,7 @@ import io
 import logging
 
 app = FastAPI()
-pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
+# pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
 
 
 logging.basicConfig(level=logging.DEBUG)
