@@ -1,7 +1,7 @@
 services:
   - type: web
     name: text-extraction-service
-    env: python
+    runtime: python
     plan: starter
     buildCommand: |
       pip install -r requirements.txt
