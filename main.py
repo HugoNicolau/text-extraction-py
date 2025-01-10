@@ -1,9 +1,6 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from PIL import Image
 import pytesseract
-
-pytesseract.pytesseract.tesseract_cmd = "./bin/tesseract"
-
 import io
 import logging
 
